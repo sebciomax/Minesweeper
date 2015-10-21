@@ -76,127 +76,7 @@ public class Mine implements ActionListener{
 		if(grid[r][c]==BLANK){
 			check(r,c);
 		}
-		/*else if(grid[r][c]==BLANK){
-
-			//top left
-			if(grid[r-1][c-1]==BLANK){ 
-				bgrid[r-1][c-1].setIcon(numbers[grid[r][c]]);
-				r1 = r-1;
-				c1 = c-1;
-				while(grid[r1-1][c1-1]==BLANK){
-					if(r1-1<0||c1-1<0)break;
-					bgrid[r1-1][c1-1].setIcon(numbers[grid[r][c]]);
-					r1=r1-1;
-					c1=c1-1;
-					
-				}
-				r1=0;
-				c1=0;
-			}
-			//top
-			if(grid[r-1][c]==BLANK){ 
-				bgrid[r-1][c].setIcon(numbers[grid[r][c]]);
-				r1 = r-1;
-				c1 = c;
-				while(grid[r1-1][c1]==BLANK){
-					if(r1-1<0)break;
-					bgrid[r1-1][c1].setIcon(numbers[grid[r][c]]);
-					r1=r1-1;
-					c1=c1;
-					
-				}
-				r1=0;
-				c1=0;
-			}
-			//top right
-			if(grid[r-1][c+1]==BLANK){ 
-				bgrid[r-1][c+1].setIcon(numbers[grid[r][c]]);
-				r1 = r-1;
-				c1 = c+1;
-				while(grid[r1-1][c1+1]==BLANK){
-					if(r1-1<0||c1+1>7)break;
-					bgrid[r1-1][c1+1].setIcon(numbers[grid[r][c]]);
-					r1=r1-1;
-					c1=c1+1;
-					
-				}
-				r1=0;
-				c1=0;
-			}
-			//right
-			if(grid[r][c+1]==BLANK){ 
-				bgrid[r][c+1].setIcon(numbers[grid[r][c]]);
-				r1 = r;
-				c1 = c+1;
-				while(grid[r1][c1+1]==BLANK){
-					if(c1+1>7)break;
-					bgrid[r1][c1+1].setIcon(numbers[grid[r][c]]);
-					r1=r1;
-					c1=c1+1;
-					
-				}
-				r1=0;
-				c1=0;
-			}
-			//bottom right
-			if(grid[r+1][c+1]==BLANK){ 
-				bgrid[r+1][c+1].setIcon(numbers[grid[r][c]]);
-				r1 = r+1;
-				c1 = c+1;
-				while(grid[r1+1][c1+1]==BLANK){
-					if(r1+1>7||c1+1>7)break;
-					bgrid[r1+1][c1+1].setIcon(numbers[grid[r][c]]);
-					r1=r1+1;
-					c1=c1+1;
-				}
-				r1=0;
-				c1=0;
-			}
-			//bottom
-			if(grid[r+1][c]==BLANK){ 
-				bgrid[r+1][c].setIcon(numbers[grid[r][c]]);
-				r1 = r+1;
-				c1 = c;
-				while(grid[r1+1][c1]==BLANK){
-					if(r1+1>7)break;
-					bgrid[r1+1][c1].setIcon(numbers[grid[r][c]]);
-					r1=r1+1;
-					c1=c1;
-				}
-				r1=0;
-				c1=0;
-			}
-			//bottom left
-			if(grid[r+1][c-1]==BLANK){ 
-				bgrid[r+1][c-1].setIcon(numbers[grid[r][c]]);
-				r1 = r+1;
-				c1 = c-1;
-				while(grid[r1+1][c1-1]==BLANK){
-					if(r+1>7||c-1<0)break;
-					bgrid[r1+1][c1-1].setIcon(numbers[grid[r][c]]);
-					r1=r1+1;
-					c1=c1-1;
-				}
-				r1=0;
-				c1=0;
-			}
-			//left
-			if(grid[r][c-1]==BLANK){ 
-				bgrid[r][c-1].setIcon(numbers[grid[r][c]]);
-				r1 = r;
-				c1 = c-1;
-				while(grid[r1][c1-1]==BLANK){
-					if(c-1<0)break;
-					bgrid[r1][c1-1].setIcon(numbers[grid[r][c]]);
-					r1=r1;
-					c1=c1-1;
-				}
-				r1=0;
-				c1=0;
-			}
-
-		}*/
-
+		
 	}
 
 	public void check(int r, int c){
@@ -574,11 +454,6 @@ public class Mine implements ActionListener{
 
 	
 }
-
-
-
-
-
 
 
 
